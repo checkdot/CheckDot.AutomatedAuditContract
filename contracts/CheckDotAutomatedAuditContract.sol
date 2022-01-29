@@ -16,9 +16,9 @@ interface IERC20 {
  * 
  * Simple schema representation:
  *
- * o-------o       o--------------------o       o-------------o       o------------o
- * |  BUY  | ----> |     Emit Event     | ----> |   Process   | ----> |  Burn CDT  |
- * o-------o       o--------------------o       o-------------o       o------------o
+ * o-------o       o--------------------o       o-------------o       o------------------------------o
+ * |  BUY  | ----> |     Emit Event     | ----> |   Process   | ----> |  Burn CDT 10% CDT Quarterly  |
+ * o-------o       o--------------------o       o-------------o       o------------------------------o
  *
  */
 contract CheckDotAutomatedAuditContract {
